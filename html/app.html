@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NativeTube</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                width: 100vw;
+                overflow: hidden;
+            }
+            webview,
+            iframe {
+                display: flex;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <webview src="https://www.youtube.com/" id="viewer"></webview>
+        <script src="../js/viewer.js"></script>
+    </body>
+</html>

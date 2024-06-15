@@ -1,0 +1,24 @@
+{
+  "name": "nativetube",
+  "version": "1.0.0",
+  "description": "Watch YouTube videos in your native video player, powered by Cobalt.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytontdm/nativetube.git"
+  },
+  "author": "ClaytonTDM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claytontdm/nativetube/issues"
+  },
+  "homepage": "https://github.com/claytontdm/nativetube#readme",
+  "dependencies": {
+    "electron": "^31.0.1",
+    "stream": "^0.0.2"
+  }
+}
