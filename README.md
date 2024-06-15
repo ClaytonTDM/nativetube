@@ -14,7 +14,7 @@ NativeTube doesn't have any compiled releases yet, so you'll have to run it your
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
-- [pnpm](https://pnpm.io/)
+- [pnpm](https://pnpm.io/) (optional but recommended)
 
 ### Steps
 
