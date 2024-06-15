@@ -50,7 +50,6 @@ fetch("https://api.cobalt.tools/api/json", {
             ).innerText = `Attempting to open video ${id}...`;
             shell.openPath(filePath);
 
-            // detect when the video is closed and delete the file
             const checkIfFileIsClosed = setInterval(() => {
                 fs.open(filePath, "r+", (err, fd) => {
                     if (!err) {
